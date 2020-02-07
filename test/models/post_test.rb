@@ -2,7 +2,8 @@ require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
    def setup
-    @post = Post.new(title:"my post",body:"i am the post write me")
+    @user = User.create(name:"tashfeen",email:"tahsfeen@gamil.com")
+    @post = Post.new(title:"my post",body:"i am the post write me",user_id:@user.id)
    end
    test "post should be valid" do
     assert @post.valid?
