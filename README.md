@@ -7,6 +7,7 @@ This project is about Models. We created 3 models and thay have 0ne to many rela
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+
 You need Ruby and Rails install in your System
 
 ```
@@ -16,9 +17,11 @@ rails '~> 6.0.2', '>= 6.0.2.1'
 ```
 
 ### Installing
+
 clone the project in your system.
 cd into project.
 open terminal and type rails console.
+
 ## Running the tests
 
 In the terminal type rails test
@@ -30,26 +33,28 @@ If you want to test models.
 ```
 rails test:models
 ```
+
 ## Deployment
 
 It will deploy on heroku
 
 ## Built With
 
-* [Rails](https://rubyonrails.org/) - The web framework used
-* [SQLite3](https://www.sqlite.org/index.html) - Database used
-* [GitHub](https://github.com/) - Used for version control
+- [Rails](https://rubyonrails.org/) - The web framework used
+- [SQLite3](https://www.sqlite.org/index.html) - Database used
+- [GitHub](https://github.com/) - Used for version control
 
 ## Authors
 
-* **Tashfeen Rao** - *collaborative work* - [PurpleBooth](https://github.com/TashfeenRao)
-* **Ko Nyan** -      *collaborative work* - [PurpleBooth](https://github.com/Konyan)
+- **Tashfeen Rao** - _collaborative work_ - [PurpleBooth](https://github.com/TashfeenRao)
+- **Ko Nyan** - _collaborative work_ - [PurpleBooth](https://github.com/Konyan)
 
 ## License
 
 This project is licensed under the MICROVERSE -
+
 ## Acknowledgments
 
-* Microverse
-* Odin Project
-* Ruby on Rails Tutorial by michal hertlz
+- Microverse
+- Odin Project
+- Ruby on Rails Tutorial by michal hertlz
