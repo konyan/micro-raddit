@@ -1,24 +1,60 @@
-# README
+# Building with Active Record
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is about Models. We created 3 models and thay have 0ne to many relationship.
 
-Things you may want to cover:
+## Getting Started
 
-- Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-- System dependencies
+### Prerequisites
 
-- Configuration
+You need Ruby and Rails install in your System
 
-- Database creation
+```
+ruby '2.6.5'
+rails '~> 6.0.2', '>= 6.0.2.1'
 
-- Database initialization
+```
 
-- How to run the test suite
+### Installing
 
-- Services (job queues, cache servers, search engines, etc.)
+clone the project in your system.
+cd into project.
+open terminal and type rails console.
 
-- Deployment instructions
+## Running the tests
 
-- ...
+In the terminal type rails test
+
+### Break down into end to end tests
+
+If you want to test models.
+
+```
+rails test:models
+```
+
+## Deployment
+
+It will deploy on heroku
+
+## Built With
+
+- [Rails](https://rubyonrails.org/) - The web framework used
+- [SQLite3](https://www.sqlite.org/index.html) - Database used
+- [GitHub](https://github.com/) - Used for version control
+
+## Authors
+
+- **Tashfeen Rao** - _collaborative work_ - [PurpleBooth](https://github.com/TashfeenRao)
+- **Ko Nyan** - _collaborative work_ - [PurpleBooth](https://github.com/Konyan)
+
+## License
+
+This project is licensed under the MICROVERSE -
+
+## Acknowledgments
+
+- Microverse
+- Odin Project
+- Ruby on Rails Tutorial by michal hertlz
